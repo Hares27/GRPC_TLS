@@ -36,7 +36,7 @@ log.Printf("Client")
 
 	//read client cert
 	
-	clientCert, err := tls.LoadX509KeyPair("../cert/client-cert.pem", "../cert/client-key.pem")
+	clientCert, err := tls.LoadX509KeyPair("../newCertificates/client-cert.pem", "../newCertificates/client-key.pem")
 	if err != nil {
 		log.Fatal("Error clientCert",err)
 	}

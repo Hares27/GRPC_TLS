@@ -34,7 +34,7 @@ func main(){
 
 
 	
-	caPem,err:=ioutil.ReadFile("../cert/ca-cert.pem");
+	caPem,err:=ioutil.ReadFile("../newCertificates/ca-cert.pem");
 	if err!=nil{
 		log.Fatal(err)
 	}
